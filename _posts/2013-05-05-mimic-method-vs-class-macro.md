@@ -59,7 +59,7 @@ deprecate(:GetTitle, :title)
 
 ### 类宏
 
-对于类宏，书中给出的解释很简单,  **Use a class method in a class definition. ** 就是在一个类定义中使用一个类方法，那么这个类方法就叫类宏。注意这里的关键字是 Use（调用），而不是 Define（定义）。这就引出了类宏的主要使用场景：在一个类定义中，调用一个类方法，进而达到扩展这个类的目的。 本例中用到类宏的地方是这里：
+对于类宏，书中给出的解释很简单,  **Use a class method in a class definition** 就是在一个类定义中使用一个类方法，那么这个类方法就叫类宏。注意这里的关键字是 Use（调用），而不是 Define（定义）。这就引出了类宏的主要使用场景：在一个类定义中，调用一个类方法，进而达到扩展这个类的目的。 本例中用到类宏的地方是这里：
 
 ```ruby
 deprecate :GetTitle, :title
