@@ -1,11 +1,8 @@
 ---
 layout: post
-title:  The problem statements of frontend and the what solution each and every JS framework provides
+title:  A 100 ways to write a Counter App, with JavaScript
 date:   2024-06-08 21:28:00 +0800
 ---
-
-
-# A 100 ways to write a Counter application
 
 ## Plain JS
 ```html
